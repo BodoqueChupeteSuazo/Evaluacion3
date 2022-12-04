@@ -10,6 +10,7 @@ public class Colision : MonoBehaviour
     bool dimelo = false;
     public AudioClip perder;
     AudioSource audioSource;
+    public GameObject botone;
     // Update is called once per frame
     void Start()
     {
@@ -29,6 +30,7 @@ public class Colision : MonoBehaviour
         {
             StartCoroutine("win");
             dimelo = true;
+            botone.SetActive(false);
         }
     }
     IEnumerator win()
