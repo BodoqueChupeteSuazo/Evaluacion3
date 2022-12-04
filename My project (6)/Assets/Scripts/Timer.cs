@@ -43,6 +43,7 @@ public class Timer : MonoBehaviour
             audioSource2.PlayOneShot(ganar, 0.7F);
             count1 = 0;
             restante =+ 5;
+            botone.SetActive(false);
         }
     }
     private void Update()

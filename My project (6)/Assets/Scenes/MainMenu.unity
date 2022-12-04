@@ -1177,8 +1177,6 @@ MonoBehaviour:
   m_Script: {fileID: -1826476478, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mWorldCenterMode: 2
-  mWorldCenter: {fileID: 0}
 --- !u!81 &1480951252
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1493,38 +1491,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
-  UsePoseSmoothing: 0
-  AnimationCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 3.3333333
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.3
-      value: 1
-      inSlope: 3.3333333
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1947902252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1537,20 +1503,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PreviewVisible: 1
-  RuntimeOcclusion: 0
-  mTrackableName: imagen_2022-12-03_183624016
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Flor.xml
-  mAspectRatio: 1
-  mImageTargetType: 0
-  mWidth: 7
-  mHeight: 7
-  mRuntimeTexture: {fileID: 0}
-  mMotionHint: 1
-  mTrackingOptimization: 0
-  mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1947902254}
 --- !u!4 &1947902253
 Transform:
   m_ObjectHideFlags: 0
@@ -1578,10 +1530,3 @@ MonoBehaviour:
   m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1947902252}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: imagen_2022-12-03_183624016
-  mDatasetName: Vuforia/Flor.xml
-  mCastedBehaviour: {fileID: 1947902252}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
